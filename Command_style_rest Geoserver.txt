@@ -1,3 +1,12 @@
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @GCI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
+
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @GRRI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
+
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @MGRVI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
+
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @NDRE.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
+
 curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @NDVI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
 
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @NGRDI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
 
