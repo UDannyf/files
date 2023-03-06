@@ -1,0 +1,3 @@
+curl -u admin:geoserver -XPOST -H "Content-type: application/zip" --data-binary @NDVI.zip https://0bfa-45-236-151-33.sa.ngrok.io/geoserver/geoserver/rest/styles
+
+
