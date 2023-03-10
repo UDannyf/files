@@ -13,18 +13,29 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap>
-              <ColorMapEntry color="#000000" quantity="-999" opacity="0"/>
-              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>
-              <ColorMapEntry color="#000002" quantity="1" label="-1"/>
-              <ColorMapEntry color="#0000ff" quantity="31" label="-0.75"/>
-              <ColorMapEntry color="#6e4795" quantity="63" label="-0.50"/>
-              <ColorMapEntry color="#ff00ff" quantity="95" label="-0.25"/>              
-              <ColorMapEntry color="#ff0000" quantity="127" label="0"/>              
-              <ColorMapEntry color="#ff8d0a" quantity="159" label="0.5"/>              
-              <ColorMapEntry color="#e9e500" quantity="191" label="0.25"/>              
-	      <ColorMapEntry color="#00ff00" quantity="223" label="0.75"/>	      	      
-              <ColorMapEntry color="#1f8a00" quantity="255" label="1"/>
+            <Opacity>1</Opacity>
+            <ColorMap  type="intervals" extended="true">              
+              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>       
+              <ColorMapEntry color="#01820c" quantity="50" label="0 - 50 CCI"/>
+              <ColorMapEntry color="#40b74a" quantity="100" label="50 - 100 CCI"/>
+              <ColorMapEntry color="#66d16f" quantity="150" label="100 - 150 CCI"/>
+              <ColorMapEntry color="#8ae091" quantity="200" label="150 - 200 CCI"/>
+              <ColorMapEntry color="#b2e08a" quantity="250" label="200 - 250 CCI"/>              
+              <ColorMapEntry color="#bbf16c" quantity="300" label="250 - 300 CCI"/>             
+              <ColorMapEntry color="#cef16c" quantity="350" label="300 - 350 CCI"/>
+              <ColorMapEntry color="#dbf08a" quantity="400" label="350 - 400 CCI"/>
+              <ColorMapEntry color="#e4f095" quantity="450" label="400 - 450 CCI"/>
+              <ColorMapEntry color="#fafbb3" quantity="500" label="450 - 500 CCI"/>
+              <ColorMapEntry color="#f3eba5" quantity="550" label="500 - 550 CCI"/>              
+              <ColorMapEntry color="#dbce80" quantity="600" label="550 - 600 CCI"/>             
+              <ColorMapEntry color="#ccba67" quantity="650" label="600 - 650 CCI"/>              
+              <ColorMapEntry color="#c0a452" quantity="700" label="650 - 700 CCI"/>             
+              <ColorMapEntry color="#c09d52" quantity="750" label="700 - 750 CCI"/>             
+              <ColorMapEntry color="#bb8836" quantity="800" label="750 - 800 CCI"/>             
+              <ColorMapEntry color="#bb7b36" quantity="850" label="800 - 850 CCI"/>             
+	      <ColorMapEntry color="#b36425" quantity="900" label="850 - 900 CCI"/>	      	      
+              <ColorMapEntry color="#b22c18" quantity="950" label="900 - 950 CCI"/>	      	      
+              <ColorMapEntry color="#860404" quantity="1000" label="950 - 1000 CCI"/>	      	                    
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
@@ -32,3 +43,4 @@
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
+

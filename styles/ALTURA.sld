@@ -13,18 +13,23 @@
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <ColorMap>
-              <ColorMapEntry color="#000000" quantity="-999" opacity="0"/>
-              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>
-              <ColorMapEntry color="#000002" quantity="1" label="-1"/>
-              <ColorMapEntry color="#0000ff" quantity="31" label="-0.75"/>
-              <ColorMapEntry color="#6e4795" quantity="63" label="-0.50"/>
-              <ColorMapEntry color="#ff00ff" quantity="95" label="-0.25"/>              
-              <ColorMapEntry color="#ff0000" quantity="127" label="0"/>              
-              <ColorMapEntry color="#ff8d0a" quantity="159" label="0.5"/>              
-              <ColorMapEntry color="#e9e500" quantity="191" label="0.25"/>              
-	      <ColorMapEntry color="#00ff00" quantity="223" label="0.75"/>	      	      
-              <ColorMapEntry color="#1f8a00" quantity="255" label="1"/>
+            <Opacity>0.8</Opacity>
+            <ColorMap type="intervals" extended="true">              
+              <ColorMapEntry color="#000000" quantity="0" opacity="0"/>       
+              <ColorMapEntry color="#000084" quantity="20" label="0 - 20 cm"/>
+              <ColorMapEntry color="#4c4cff" quantity="40" label="20 - 40 cm"/>
+              <ColorMapEntry color="#9e5dfe" quantity="60" label="40 - 60 cm"/>
+              <ColorMapEntry color="#6e4795" quantity="80" label="60 - 80 cm"/>
+              <ColorMapEntry color="#ff7156" quantity="100" label="80 - 100 cm"/>              
+              <ColorMapEntry color="#ff0000" quantity="120" label="100 - 120 cm"/>             
+              <ColorMapEntry color="#01c1ff" quantity="140" label="120 - 140 cm"/>              
+              <ColorMapEntry color="#03b49f" quantity="160" label="140 - 160 cm"/>             
+              <ColorMapEntry color="#b47003" quantity="180" label="160 - 180 cm"/>             
+              <ColorMapEntry color="#ffaa02" quantity="200" label="180 - 200 cm"/>             
+              <ColorMapEntry color="#ffe326" quantity="220" label="200 - 220 cm"/>             
+	      <ColorMapEntry color="#beae19" quantity="240" label="220 - 240 cm"/>	      	      
+              <ColorMapEntry color="#00ff00" quantity="260" label="240 - 260 cm"/>	      	      
+              <ColorMapEntry color="#1fa100" quantity="280" label="260 - 280 cm"/>	      	                    
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
@@ -32,3 +37,4 @@
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
+
